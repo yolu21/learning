@@ -1,36 +1,37 @@
-<!DOCTYPE html>
+<!DOCTYPE html>         <!--打 !然後enter直接得到基本框架喔-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>learning tags</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
+    <title>learning tags</title> <!--改網站名稱-->
+    <link rel="stylesheet" type="text/css" href="style.css"><!--第一種插入CSS的方式:外聯法-->
+    <style> /*第二種插入CSS的方式:嵌入法，放在head裡*/
         body{
             background-color: rgb(255, 226, 226);
         }
         h1{
-            color:cadetblue;
+            color:cadetblue;/*改文字顏色用color*/
         }
-        #word1{
+        #word1{/*選擇器id CSS寫法，#加取的名字*/
             color: brown;
         }
-        .word2{
+        .word2{/*選擇器class CSS寫法，.加取的名字*/
             color:burlywood;
         }
     </style>
 </head>
 <body>
-    <h1>hello world!</h1>
+    <h1>hello world!</h1><!--文字tag，有h1~h6,p，可以透過css再改變大小-->
     <h2 id="word1">hello world!</h2>
     <h3 id="word1">hello world!</h3>
     <h4 class="word2">hello world!</h4>
     <h5 class="word2">hello world!</h5>
     <h6>hello world!</h6>
     <p>hello world!</p>
-    <img src="me.jpg" alt="偶的照騙" style="width: 300px;">
-    <a href="https://github.com/yolu21"  style="position: relative;left: 8%;top:5%;">github</a>
-    <a href="https://github.com/yolu21"  style="position: absolute;left:50%;top:5%;" target="_blank">github1</a>
+    <!--照片tag用img-->
+    <img src="me.jpg" alt="偶的照騙" style="width: 300px;"><!--第三種插入CSS的方式:內聯法-->
+    <a href="https://github.com/yolu21"  style="position: relative;left: 8%;top:5%;">github</a><!--連結tag用a-->
+    <a href="https://github.com/yolu21"  style="position: absolute;left:50%;top:5%;" target="_blank">github1</a><!--target="_blank"用新視窗開網頁-->
 </body>
 </html>
